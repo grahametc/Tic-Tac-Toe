@@ -1,0 +1,57 @@
+body{
+  background-color: dodgerblue;
+}
+
+.container{
+    margin:0 auto;
+    position: fixed;
+    top:270px;
+    left: 700px;
+}
+
+.row1{
+  display: flex;
+  gap:0px;
+}
+.row2{
+    display: flex;
+    gap:0px;  
+  }
+  .row3{
+    display: flex;
+    gap:0px;  
+  }
+input{
+    width:100px;
+    height:100px;
+    border-radius: 0.1px;
+    background-color: transparent;
+}
+.winner{
+  width:200px;
+  position:relative;
+  top:600px;
+  left: 765px;
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: blue;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#reset{
+  height:30px;
+  width:100px;
+  position:relative;
+  top:600px;
+  left: 790px;
+  background-color:rgb(0, 0, 0);
+  color: dodgerblue;
+  border-radius: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
