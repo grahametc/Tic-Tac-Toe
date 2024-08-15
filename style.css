@@ -1,7 +1,13 @@
 body{
-  background-color: dodgerblue;
+  background-color: rgb(122, 117, 117);
 }
 
+h1{
+  left: 765px;
+  position: absolute;
+  color: blue;
+  text-shadow: 0 0 10px rgb(22, 110, 199), 0 0 20px rgb(22, 110, 199), 0 0 30px blue, 0 0 40px blue;
+}
 .container{
     margin:0 auto;
     position: fixed;
@@ -15,7 +21,7 @@ body{
 }
 .row2{
     display: flex;
-    gap:0px;  
+    gap:0px; 
   }
   .row3{
     display: flex;
@@ -36,6 +42,7 @@ input{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   color: blue;
+  text-shadow: 0 0 10px dodgerblue, 0 0 20px dodgerblue, 0 0 30px blue, 0 0 40px blue;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
